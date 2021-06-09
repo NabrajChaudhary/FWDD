@@ -1,0 +1,250 @@
+@media (max-width: 991px) {
+    nav {
+        padding: 2px 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav .navbar {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #b3dee5;
+        top: 65px;
+        left: -100%;
+        transition: 0.5s;
+        z-index: 999;
+    }
+
+    nav .navbar.active {
+        left: 0;
+    }
+
+    nav .navbar ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav .navbar ul li a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    nav .navbar ul li.active ul {
+        position: relative;
+        background: #b3dee5;
+        z-index: 999;
+    }
+
+    nav .navbar ul li ul {
+        position: absolute;
+        left: 0;
+        background: #b3dee5;
+        display: none;
+        top: 0;
+    }
+
+    nav .navbar ul li ul li {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 850px){
+
+    /*Sliders */
+    .home_page_slider {
+        position: relative;
+    }
+
+        .home_page_slider .sliderbox {
+            height: auto;}
+        .home_page_slider .owl-dots {
+            left: 43%;
+            bottom: 2%;
+        }
+       /*Sliders */
+    /*this is the section for products */
+    #products {
+        .product_text {
+            font-weight: 700;
+            font-size: 25px;
+        }
+        .product_sec {
+            width: 100%;
+            padding: 1%;
+            display: flex;
+            justify-content: space-between;
+            .product_box {
+                width: 100%;
+                margin: 10px auto;
+                transition: 0.7s ease;
+                a {
+                    text-decoration: none;
+                    h5 {
+                        font-weight: 500;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*this is the section for products */
+    /*Banner Section */
+    #banner {
+        .banner_content {
+            display: flex;
+            width: 90%;
+            h2 {
+                font-size: 25px;
+                padding: 1%;
+            }
+        }
+    }
+
+    /*Banner Section */
+    /*This is the css for banner with view member button */
+    /*Blogs Section css starts from here */
+    #blogs_sec {
+        .blogs_text { 
+            font-size: 17px;
+            font-weight: 400;
+            padding-top: 10px;
+        }
+        .blogs_sec {
+            display: flex;
+            justify-content: space-between;
+            .blogs_box {
+                width: 48%;
+            }
+        }
+    }
+
+    /*Blogs Section css ends here */
+/*This is the section for videos and event */
+#info {
+    display: flex;
+    flex-direction: column;
+    #videos {
+        width: 100% !important;
+        .video_text {
+            color: red;
+            font-size: 20px;
+        }
+
+        .videos_sec {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    #events {
+        width: 100%;
+        padding: 1%;
+        .event_text {
+            font-size: 20px;
+        }
+        .events_sec {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 1%;
+            .eventbox {
+                width: 95%;
+                a {
+                    text-align: justify;
+                    text-decoration: none;
+                    color: rgb(66, 56, 54);
+                    font-size: 15px;
+                    font-weight: 400;
+                    span {
+                        color: rgb(17, 11, 10);
+                        font-weight: 200;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+/*This is the section for videos and event */
+/*This is the css for footer navigation */
+#foot_nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+    margin: auto !important;
+    .nav_sec{
+        width: 50% !important;
+        margin: auto !important;
+        align-items: center !important;
+        .social_icon {
+            display: flex;
+            flex-direction: row;
+            align-items: center !important;
+            width: 50% !important;
+            margin-left: 30px;
+            a {
+                width: 20%;
+            }
+        }
+        h3 {
+            padding: 2%;
+            text-align:left;
+            color: Red;
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 20px;
+        }
+        ul {
+
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+            li{
+            }
+        }
+    }
+}
+/*This is the css for footer navigation */
+/*This is the entire css for services part */
+/*This is the css for Veganism page-Fitness Page- Addiction Free  -Starts Here */
+.text-area{
+    width: 100%;
+    padding: 1%;
+    .h_text{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    h4{
+        font-size: 22px;
+    }
+    .imgbox{
+        width: 100%;
+        height: 70%;
+        margin: auto;
+        .center_box{
+            width: 100%;
+            h2{
+                font-size: 22px;
+                font-weight: 600;
+            }
+            ul{
+                padding: 10px 20px;
+            }
+        }
+        h3{
+            font-size: 25px;
+            font-weight: 700;
+        }
+    }
+}
+
+
+/*This is the entire css for services part */
+/*This is the css for Veganism page-Fitness Page- Addiction Free  -ends Here */
+
+
+}

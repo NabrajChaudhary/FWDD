@@ -1,0 +1,473 @@
+/* Css for Navbar */
+nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #b3dee5;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.5s;
+    height: 80px !important;
+}
+menu{
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: 0.5s;
+    z-index: 9999;
+}
+
+nav .logo {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+    padding: 1%;
+    margin: auto !important;
+
+}
+
+nav .navbar {
+    float: right;
+   margin-top: 15px !important;
+
+}
+
+nav .navbar ul {
+    padding: 0;
+    display: flex;
+}
+
+nav .navbar ul li {
+    list-style: none;
+    position: relative;
+}
+
+nav .navbar ul li.sub-menu:before {
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    line-height: 50px;
+    color: #fff !important;
+    right: 5px;
+}
+
+nav .navbar ul li.active.sub-menu:before {
+    content: '\f0d8';
+}
+
+
+nav .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    background: #b3dee5;
+    display: none;
+    top: 50px;
+    z-index: 999;
+    transition: .5s;
+
+}
+
+nav .navbar ul li.active ul {
+    display: block;
+}
+
+nav .navbar ul li ul li {
+    display: block;
+    width: 150px;
+}
+
+nav .navbar ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #31515c;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    margin: auto !important;
+    font-size: 16px;
+}
+
+nav .navbar ul li a:hover,
+nav .navbar ul li a.active {
+    color: #31515c;
+    background: #ffa101;
+
+}
+
+
+.menu-toggle {
+    color: #31515c;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+/* Css for Navbar */
+/*This is the slider in header part below navigation bar */
+.home_page_slider{
+    height: auto;
+    position: absolute;
+    .sliderbox{
+        height:650px;
+        width: 100% !important;
+        background: aqua;
+        padding: 0;
+        img{
+           max-width: 100%;
+           height: auto;
+           display: block !important;
+        }
+    }
+}
+
+    .home_page_slider .owl-dots {
+        text-align: center;
+        padding-top: 15px;
+        position: absolute;
+        left: 50%;
+        bottom: 2%;
+    }
+
+    .home_page_slider .owl-dots button.owl-dot {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: inline-block;
+        background: #b3dee5;
+        margin: 0 3px;
+    }
+
+    .home_page_slider .owl-dots button.owl-dot.active {
+        background-color: #ffa101;
+    }
+
+    .home_page_slider .owl-dots button.owl-dot:focus {
+        outline: none;
+    }
+
+
+
+
+/*This is the slider in header part below navigation bar */
+/*this is the section for products */
+#products {
+    background: linear-gradient(#4d5152, rgba(194, 216, 221, 0.2)),
+        url(../img/sunset/seashore2.jpg);
+    height: auto;
+    padding: 1%;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    .product_text {
+        font-weight: 700;
+        font-size: 40px;
+        color: #ffa101;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    .product_sec {
+        margin: auto;
+        width: 100%;
+        padding: 1%;
+        display: flex;
+        flex-flow: row wrap;
+        .product_box {
+            width: 25%;
+            margin: 10px auto;
+            transition: 0.4s ease;
+            &:hover {
+               box-shadow: 2px 2px 5px 2px rgba(255, 161, 1, 0.6);
+            }
+            a {
+                text-decoration: none;
+                h5 {
+                    color: #31515c;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 25px;
+                    padding: 1%;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: #31515c;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*this is the section for products */
+
+/*This is the css for banner with view member button */
+/*Banner Section */
+#banner{
+    height: auto !important;
+    background: linear-gradient(rgb(250, 230, 177), rgb(179, 222, 229));
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 1%;
+    .banner_content{
+        padding: 2%;
+        display: flex;
+        width: 75%;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        h2{
+            text-align: center;
+            color: #ffa101;
+            font-size: 30px;
+            padding: 1%;
+            text-transform: uppercase;
+        }
+        .b_btn{
+            padding: 10px 20px;
+            width: auto;
+            background: #31515c;
+            cursor: pointer;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 600;
+            box-shadow: 0px 0px 10px grey;
+            text-transform: capitalize;
+            transition: .5s ease-in-out;
+            &:hover{
+                background: #ffa101;
+                box-shadow: none;
+                color: #fff;
+            }
+        }
+       
+    }
+   
+}
+/*Banner Section */
+/*This is the css for banner with view member button */
+
+/*Blogs Section css starts from here */
+#blogs_sec{
+     @extend #products;
+     background:linear-gradient(90deg, #b3dee5, #fae6b1);
+     background-position: center center;
+        background-attachment: fixed;
+     .blogs_text{
+         @extend .product_text;
+
+     }
+     .blogs_sec{
+         @extend .product_sec;
+         flex-flow:  row wrap !important;
+         .blogs_box{
+             @extend .product_box;
+             box-shadow: none;
+             width: 22%;
+             transition: .5s ease;
+             &:hover{
+                 box-shadow: 2px 2px 5px 2px rgba(255, 161, 1, 0.6);
+             }
+             a{
+                 text-decoration: none;
+                 font-size: 15px;
+                 font-size: 500 !important;
+                 p{
+                     text-align: justify;
+                     color: #31515c;
+                     padding: 1%;
+                 }
+             }
+         }
+     }
+}
+/*Blogs Section css ends here */
+
+/*This is the section for videos and event */
+#info {
+    @extend #products;
+    background: linear-gradient(rgba(250, 230, 177, 0.2), rgba(179, 222, 229, 0.3)),
+    url(../img/sunset/mountainset.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    // margin: auto;
+    #videos{
+        width: 50%;
+        padding: 1%;
+        margin: 5px auto;
+        
+        .video_text{
+            text-align: center;
+            color: #ffa101;
+            font-size: 30px;
+            padding: 1%;
+            text-transform: uppercase;
+        }
+        .videos_sec{
+            width: 100%;
+            padding: 1%;
+            display: flex;
+            justify-content: space-between;
+            overflow: scroll;
+         
+            
+        }
+    }
+    #events{
+        width: 60%;
+        padding: 1%;
+        margin:5px  auto;
+        box-shadow: 0 0 3px 0 rgba(255, 161, 1, 0.6);
+
+        .event_text{
+            text-align: center;
+            color: #ffa101;
+            font-size: 30px;
+            padding: 1%;
+            text-transform: uppercase;
+        }
+        .events_sec{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 1%;
+            button{
+                    padding: 10px 20px;
+                    width: auto;
+                    background: #31515c;
+                    cursor: pointer;
+                    color: #fff;
+                    border: none;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    transition: .4s ease-in-out;
+                    &:hover{
+                        background: #ffa101;
+                        box-shadow: none;
+                        color: #fff;
+                    }
+            }
+            .eventbox{
+                padding: 1%;
+                margin: 5px auto;
+                border-radius: 5px;
+                width: 60%;
+                transition: .3s ease-out;
+                &:hover{
+                    box-shadow: 0 2px 5px 1px rgba(0,0,0,0.4);
+                }
+                a{
+                    text-align: justify;
+                    text-decoration: none;
+                    color: #31515c;
+                    font-size: 19px;
+                    font-weight: 400;
+                    span{
+                        color: #fae6b1;
+                        font-weight: 200;
+                        font-size:16px ;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+/*This is the section for videos and event */
+
+/*This is the section for footer navigation bar */
+#foot_nav{
+    @extend #products;
+    background:linear-gradient(90deg, #fae6b1, #b3dee5);
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    
+    .nav_sec{
+        // background: limegreen;
+        width: 15%;
+        .social_icon{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            a{
+                width: 13%;
+                margin: auto 5px;
+            }
+        }
+     
+        h3{
+            padding: 2%;
+            text-align: left;
+            color: #ffa101;
+            font-weight: 700;
+        }
+        ul{
+            margin: auto;
+            list-style: none;
+            li{
+               
+                a{
+                    text-decoration: none;
+                    color: #31515c;
+                    text-align: left;
+                     display: block;
+                     padding: 5px;
+                     font-size: 15px;
+                     font-weight: 500;
+                     margin: 3px 0;
+                    
+                    
+                    &:hover{
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+/*This is the section for footer navigation bar */
+
+/*This is the End Footer Css  */
+footer{
+    background: #b3dee5;
+    padding: 5px;
+    width: 100%;
+    .footer_text{
+        margin: auto;
+        p{
+            text-align: center;
+            font-weight: 600;
+            font-size: 16px;
+            color: #31515c;
+            padding: 2px;
+            a{
+                color: #ffa101;
+                font-weight: 500;
+                text-decoration: none;
+            }
+        }
+    }
+}
+/*This is the End Footer Css  */
