@@ -16,13 +16,13 @@ p {
   background: linear-gradient(100deg, tomato, lightblue);
   height: 100vh; }
 
+/*This is the entire css for services part */
+/*This is the css for Veganism page-Fitness Page- Addiction Free  -Starts Here */
 #page_content, #info_content {
   background: rgba(250, 230, 177, 0.3);
   height: auto;
   padding: 1%; }
 
-/*This is the entire css for services part */
-/*This is the css for Veganism page-Fitness Page- Addiction Free  -Starts Here */
 .text-area, .text_box_info {
   width: 50%;
   height: auto;
@@ -73,6 +73,39 @@ p {
       font-weight: 800; }
 
 /*This is the css for Veganism page -Ends Here */
+/*This is the css for info section that contains... Disclaimer, Terms and condtion and Privacy Policy pages.. Starts Here */
+.text_box_info {
+  width: 85%;
+  color: #31515c; }
+  .text_box_info h2 {
+    text-align: center; }
+  .text_box_info h4 {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: justify;
+    padding: 0 1%; }
+  .text_box_info h3 {
+    font-size: 25px;
+    color: #ffa101;
+    font-weight: 500;
+    padding: 1%; }
+  .text_box_info p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify; }
+    .text_box_info p a {
+      text-decoration: none;
+      color: #b3dee5; }
+  .text_box_info ul {
+    background: #b3dee5;
+    padding: 1% 2%; }
+    .text_box_info ul li {
+      padding: 1% 0;
+      font-weight: 500;
+      font-size: 17px;
+      color: #31515c; }
+
+/*This is the css for info section that contains... Disclaimer, Terms and condtion and Privacy Policy pages.. Ends Here */
 /* Css for Navbar */
 nav {
   position: relative;
@@ -445,37 +478,6 @@ footer {
         text-decoration: none; }
 
 /*This is the End Footer Css  */
-.text_box_info {
-  width: 85%;
-  color: #31515c; }
-  .text_box_info h2 {
-    text-align: center; }
-  .text_box_info h4 {
-    font-weight: 400;
-    font-size: 25px;
-    text-align: justify;
-    padding: 0 1%; }
-  .text_box_info h3 {
-    font-size: 25px;
-    color: #ffa101;
-    font-weight: 500;
-    padding: 1%; }
-  .text_box_info p {
-    font-size: 16px;
-    font-weight: 500;
-    text-align: justify; }
-    .text_box_info p a {
-      text-decoration: none;
-      color: #b3dee5; }
-  .text_box_info ul {
-    background: #b3dee5;
-    padding: 1% 2%; }
-    .text_box_info ul li {
-      padding: 1% 0;
-      font-weight: 500;
-      font-size: 17px;
-      color: #31515c; }
-
 @media (max-width: 991px) {
   nav {
     padding: 2px 20px; }
@@ -666,6 +668,13 @@ footer {
         font-weight: 700; }
 
   /*This is the entire css for services part */
-  /*This is the css for Veganism page-Fitness Page- Addiction Free  -ends Here */ }
+  /*This is the css for Veganism page-Fitness Page- Addiction Free  -ends Here */
+  /*This is the css for info section that contains... Disclaimer, Terms and condtion and Privacy Policy pages.. Starts Here */
+  .text_box_info {
+    padding: 1%; }
+    .text_box_info ul {
+      padding: 10px 20px; }
+
+  /*This is the css for info section that contains... Disclaimer, Terms and condtion and Privacy Policy pages.. Ends Here */ }
 
 /*# sourceMappingURL=style.css.map */

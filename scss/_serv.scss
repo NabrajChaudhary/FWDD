@@ -1,10 +1,11 @@
-#page_content{
-    background: rgba(250, 230, 177,0.3);
+
+/*This is the entire css for services part */
+/*This is the css for Veganism page-Fitness Page- Addiction Free  -Starts Here */
+#page_content {
+    background: rgba(250, 230, 177, 0.3);
     height: auto;
     padding: 1%;
 }
-/*This is the entire css for services part */
-/*This is the css for Veganism page-Fitness Page- Addiction Free  -Starts Here */
 .text-area{
     width: 50%;
     height: auto;
@@ -68,3 +69,60 @@
 
 
 /*This is the css for Veganism page -Ends Here */
+
+
+
+/*This is the css for info section that contains... Disclaimer, Terms and condtion and Privacy Policy pages.. Starts Here */
+#info_content {
+    @extend #page_content;
+}
+
+.text_box_info {
+    @extend .text-area;
+    width: 85%;
+    color: #31515c;
+
+    h2 {
+        @extend .h_text;
+        text-align: center;
+    }
+
+    h4 {
+        font-weight: 400;
+        font-size: 25px;
+        text-align: justify;
+        padding: 0 1%;
+    }
+
+    h3 {
+        font-size: 25px;
+        color: #ffa101;
+        font-weight: 500;
+        padding: 1%;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: justify;
+
+        a {
+            text-decoration: none;
+            color: #b3dee5;
+        }
+    }
+
+    ul {
+        background: #b3dee5;
+        padding: 1% 2%;
+
+        li {
+            padding: 1% 0;
+            font-weight: 500;
+            font-size: 17px;
+            color: #31515c;
+        }
+    }
+}
+
+/*This is the css for info section that contains... Disclaimer, Terms and condtion and Privacy Policy pages.. Ends Here */
