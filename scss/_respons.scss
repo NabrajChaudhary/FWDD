@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 800px) {
     nav {
         padding: 2px 20px;
     }
@@ -254,4 +254,35 @@ padding: 1%;
 }
 /*This is the css for info section that contains... Disclaimer, Terms and condtion and Privacy Policy pages.. Ends Here */
 
+/* This is the css for about section / Starts Here*/
+#about_section{
+    width: 100%;
+    .about_text_area{
+        width: 95%;
+        margin: auto !important;
+        h1{
+            font-size: 35px;
+            font-weight: 700;
+            }
+        }
+        .team_sec{
+            width: 98%;
+            h2{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .team_memb{
+                width: 98%;
+            .card {
+                    flex: 35%;
+                    margin: auto;
+                    padding: 1%;
+                }
+            }
+        }
+    }
+    /* This is the css for about section / Ends Here*/
+
+
 }
+
