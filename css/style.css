@@ -483,7 +483,7 @@ footer {
   width: 100%;
   background: rgba(250, 230, 177, 0.3);
   height: auto;
-  padding: 1%; }
+  padding: 0; }
 
 /* This is the css for about section / Starts Here*/
 .about_text_area {
@@ -535,6 +535,116 @@ footer {
           font-weight: 400; }
 
 /* This is the css for about section / Ends Here*/
+.contact {
+  position: relative;
+  height: auto;
+  padding: 2% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../img/pexels-aleksandar-pasaric-325185.jpg), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
+  background-size: cover; }
+  .contact .content {
+    max-width: 100%;
+    padding: 1%;
+    text-align: center; }
+    .contact .content h2 {
+      font-weight: 900;
+      color: #ffa101;
+      font-size: 42px;
+      text-align: center;
+      padding: 0 1%; }
+    .contact .content p {
+      font-size: 16px;
+      font-weight: 500;
+      text-align: justify;
+      color: #31515c; }
+  .contact .contain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; }
+    .contact .contain .contactinfo {
+      width: 50%;
+      display: flex;
+      flex-direction: column; }
+      .contact .contain .contactinfo .box {
+        position: relative;
+        padding: 20px 0;
+        display: flex; }
+        .contact .contain .contactinfo .box .icon {
+          min-width: 60px;
+          height: 60px;
+          background: #fff;
+          display: flex;
+          color: #31515c;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          font-size: 22px; }
+        .contact .contain .contactinfo .box .text {
+          display: flex;
+          margin-left: 20px;
+          font-size: 16px;
+          color: #31515c;
+          flex-direction: column;
+          font-weight: 400; }
+          .contact .contain .contactinfo .box .text h3 {
+            font-weight: 500;
+            color: #ffa101; }
+    .contact .contain .contact_form {
+      width: 40%;
+      padding: 40px;
+      background: #fff; }
+      .contact .contain .contact_form h2 {
+        font-size: 30px;
+        color: #31515c;
+        font-weight: 500; }
+      .contact .contain .contact_form .inputBox {
+        position: relative;
+        width: 100%;
+        margin-top: 10px; }
+        .contact .contain .contact_form .inputBox input, .contact .contain .contact_form .inputBox textarea {
+          width: 100%;
+          padding: 5px 0;
+          font-size: 16px;
+          margin: 10px 0;
+          border: none;
+          border-bottom: 2px solid #333;
+          outline: none;
+          resize: none; }
+        .contact .contain .contact_form .inputBox span {
+          position: absolute;
+          left: 0;
+          padding: 5px 0;
+          font-size: 16px;
+          margin: 10px 0;
+          pointer-events: none;
+          transition: 0.5s;
+          color: #31515c; }
+
+.contact_form .inputBox input:focus ~ span, .contact .contain .contact_form .inputBox textarea:focus ~ span,
+.contact_form .inputBox input:valid ~ span,
+.contact .contain .contact_form .inputBox textarea:valid ~ span,
+.contact_form .inputBox textarea:focus ~ span,
+.contact_form .inputBox textarea:valid ~ span {
+  color: #31515c !important;
+  font-size: 12px !important;
+  transform: translateY(-20px) !important; }
+
+.contact_form .inputBox input[type="submit"], .contact .contain .contact_form .inputBox textarea[type="submit"] {
+  width: 100px !important;
+  background: #31515c !important;
+  color: #fff !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 10px !important;
+  font-size: 18px !important; }
+  .contact_form .inputBox input[type="submit"]:hover, .contact .contain .contact_form .inputBox textarea[type="submit"]:hover {
+    background: #ffa101 !important; }
+
 @media (max-width: 800px) {
   nav {
     padding: 2px 20px; }
@@ -754,6 +864,22 @@ footer {
           margin: auto;
           padding: 1%; }
 
-  /* This is the css for about section / Ends Here*/ }
+  /* This is the css for about section / Ends Here*/
+  .contact {
+    padding: 2%; }
+
+  .contain {
+    flex-direction: column;
+    padding: 2%; }
+
+  .contain .contactinfo {
+    margin-bottom: 1%; }
+
+  .contain .contactinfo,
+  .contact_form {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
 
 /*# sourceMappingURL=style.css.map */

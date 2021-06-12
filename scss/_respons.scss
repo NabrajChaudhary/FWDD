@@ -283,6 +283,26 @@ padding: 1%;
     }
     /* This is the css for about section / Ends Here*/
 
+    .contact{
+        padding: 2%;
+    }
+    .contain{
+        flex-direction: column;
+        padding: 2%;
+    }
+     .contain .contactinfo {
+         margin-bottom: 1%;
+     }
 
-}
+     .contain .contactinfo,
+     .contact_form {
+         width: 100% !important;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+
+     }
+
+     }
+
 
