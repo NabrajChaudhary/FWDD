@@ -535,6 +535,7 @@ footer {
           font-weight: 400; }
 
 /* This is the css for about section / Ends Here*/
+/*This is the css for About us/ Contact us Page.. including all elements /Starts Here/ */
 .contact {
   position: relative;
   height: auto;
@@ -645,6 +646,7 @@ footer {
   .contact_form .inputBox input[type="submit"]:hover, .contact .contain .contact_form .inputBox textarea[type="submit"]:hover {
     background: #ffa101 !important; }
 
+/*This is the css for About us/ Contact us Page.. including all elements /Ends Here/ */
 @media (max-width: 800px) {
   nav {
     padding: 2px 20px; }
@@ -865,6 +867,7 @@ footer {
           padding: 1%; }
 
   /* This is the css for about section / Ends Here*/
+  /*This is the css for About us/ Contact us Page.. including all elements /starts Here/ */
   .contact {
     padding: 2%; }
 
@@ -880,6 +883,8 @@ footer {
     width: 100% !important;
     display: flex;
     flex-direction: column;
-    justify-content: center; } }
+    justify-content: center; }
+
+  /*This is the css for About us/ Contact us Page.. including all elements /Ends Here/ */ }
 
 /*# sourceMappingURL=style.css.map */
