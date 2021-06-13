@@ -661,12 +661,25 @@ footer {
     padding: 0 1%; }
   .career_box .vacancy {
     text-decoration: none;
-    width: 70%;
-    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+    margin: 2% auto;
     display: flex;
-    justify-content: space-between; }
+    padding: 1%;
+    justify-content: space-between;
+    transition: 0.7s ease; }
+    .career_box .vacancy:hover {
+      box-shadow: 1px 1px 9px;
+      transform: skewX(20deg); }
     .career_box .vacancy .com_detail {
-      padding: 1%; }
+      padding: 1%;
+      color: #31515c; }
+      .career_box .vacancy .com_detail h4 {
+        font-weight: 700;
+        font-size: 17px; }
+      .career_box .vacancy .com_detail p {
+        font-size: 15px;
+        font-weight: 500; }
     .career_box .vacancy .job_detail {
       display: flex;
       gap: 10px;
