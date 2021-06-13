@@ -198,3 +198,42 @@
     }
 }
      /*This is the css for About us/ Contact us Page.. including all elements /Ends Here/ */
+
+
+/*This is the css for About us/Career Page.. including all elements /Starts Here/ */
+#career_section{
+    @extend #about_section;
+    padding: 1%;
+}
+.career_box{
+    padding: 1%;
+    h2{
+        font-weight: 900;
+        color: #ffa101;
+        font-size: 42px;
+        text-align: center;
+        padding: 0 1%;
+    }
+
+    .vacancy{
+        text-decoration: none;
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        .com_detail{
+           padding: 1%;
+        }
+        .job_detail{
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+
+
+
+/*This is the css for About us/Career Page.. including all elements /Ends Here/ */
