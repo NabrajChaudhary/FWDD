@@ -665,12 +665,12 @@ footer {
     border-radius: 10px;
     margin: 2% auto;
     display: flex;
-    padding: 1%;
+    box-shadow: 1px 0px 2px red;
     justify-content: space-between;
     transition: 0.7s ease; }
     .career_box .vacancy:hover {
-      box-shadow: 1px 1px 9px;
-      transform: skewX(20deg); }
+      box-shadow: 1px 1px 5px blue;
+      transform: scale(20px); }
     .career_box .vacancy .com_detail {
       padding: 1%;
       color: #31515c; }
@@ -681,10 +681,12 @@ footer {
         font-size: 15px;
         font-weight: 500; }
     .career_box .vacancy .job_detail {
+      padding: 1%;
       display: flex;
       gap: 10px;
       justify-content: space-between;
-      align-items: center; }
+      align-items: center;
+      color: #31515c; }
 
 /*This is the css for About us/Career Page.. including all elements /Ends Here/ */
 @media (max-width: 800px) {

@@ -221,12 +221,12 @@
         border-radius: 10px;
         margin: 2% auto;
         display: flex;
-        padding: 1%;
+        box-shadow: 1px 0px 2px red;
         justify-content: space-between;
         transition: 0.7s ease;
         &:hover{
-        box-shadow: 1px 1px 9px;
-        transform: skewX(20deg);
+        box-shadow: 1px 1px 5px blue;
+        transform: scale(20px);
         }
         .com_detail{
            padding: 1%;
@@ -241,10 +241,12 @@
            }
         }
         .job_detail{
+            padding: 1%;
             display: flex;
             gap: 10px;
             justify-content: space-between;
             align-items: center;
+            color: #31515c;
         }
     }
 }
