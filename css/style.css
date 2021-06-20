@@ -665,11 +665,11 @@ footer {
     border-radius: 10px;
     margin: 2% auto;
     display: flex;
-    box-shadow: 1px 0px 2px red;
+    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
     justify-content: space-between;
     transition: 0.7s ease; }
     .career_box .vacancy:hover {
-      box-shadow: 1px 1px 5px blue;
+      box-shadow: 1px 0px 4px #31515c;
       transform: scale(20px); }
     .career_box .vacancy .com_detail {
       padding: 1%;
@@ -927,6 +927,11 @@ footer {
     flex-direction: column;
     justify-content: center; }
 
-  /*This is the css for About us/ Contact us Page.. including all elements /Ends Here/ */ }
+  /*This is the css for About us/ Contact us Page.. including all elements /Ends Here/ */
+  /*This is the css for career About us/ section start here*/
+  #career_section .career_box .vacancy {
+    width: 96%; }
+
+  /*This is the css for career About us/ section start here*/ }
 
 /*# sourceMappingURL=style.css.map */
