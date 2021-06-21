@@ -255,3 +255,20 @@
 
 
 /*This is the css for About us/Career Page.. including all elements /Ends Here/ */
+
+/* This is the css for About us/clients Page... including all the elements -- Starts here */
+
+#client_section{
+    @extend #career_section;
+    h2{
+        font-weight: 900;
+        color: #ffa101;
+        font-size: 42px;
+        text-align: center;
+        padding: 0 1%;
+        }
+    }
+
+
+
+/* This is the css for About us/clients Page... including all the elements -- Ends here */
