@@ -479,7 +479,7 @@ footer {
 
 /*This is the End Footer Css  */
 /*this is the css for about section */
-#about_section, #career_section {
+#about_section, #career_section, #client_section {
   width: 100%;
   background: rgba(250, 230, 177, 0.3);
   height: auto;
@@ -890,22 +890,22 @@ footer {
 
   /*This is the css for info section that contains... Disclaimer, Terms and condtion and Privacy Policy pages.. Ends Here */
   /* This is the css for about section / Starts Here*/
-  #about_section, #career_section {
+  #about_section, #career_section, #client_section {
     width: 100%; }
-    #about_section .about_text_area, #career_section .about_text_area {
+    #about_section .about_text_area, #career_section .about_text_area, #client_section .about_text_area {
       width: 95%;
       margin: auto !important; }
-      #about_section .about_text_area h1, #career_section .about_text_area h1 {
+      #about_section .about_text_area h1, #career_section .about_text_area h1, #client_section .about_text_area h1 {
         font-size: 35px;
         font-weight: 700; }
-    #about_section .team_sec, #career_section .team_sec {
+    #about_section .team_sec, #career_section .team_sec, #client_section .team_sec {
       width: 98%; }
-      #about_section .team_sec h2, #career_section .team_sec h2 {
+      #about_section .team_sec h2, #career_section .team_sec h2, #client_section .team_sec h2 {
         font-size: 20px;
         font-weight: 600; }
-      #about_section .team_sec .team_memb, #career_section .team_sec .team_memb {
+      #about_section .team_sec .team_memb, #career_section .team_sec .team_memb, #client_section .team_sec .team_memb {
         width: 98%; }
-        #about_section .team_sec .team_memb .card, #career_section .team_sec .team_memb .card {
+        #about_section .team_sec .team_memb .card, #career_section .team_sec .team_memb .card, #client_section .team_sec .team_memb .card {
           flex: 35%;
           margin: auto;
           padding: 1%; }

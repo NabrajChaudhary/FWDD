@@ -258,7 +258,10 @@
 
 /* This is the css for About us/clients Page... including all the elements -- Starts here */
 
-
+#client_section{
+    @extend #about_section;
+    
+}
 
 
 /* This is the css for About us/clients Page... including all the elements -- Ends here */
