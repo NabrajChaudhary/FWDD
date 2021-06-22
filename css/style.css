@@ -149,15 +149,12 @@ nav .navbar ul li {
   position: relative; }
 
 nav .navbar ul li.sub-menu:before {
-  content: "\f0d7";
+  content: "";
   font-family: "Font Awesome 5 Free";
   position: absolute;
   line-height: 50px;
   color: #fff !important;
   right: 5px; }
-
-nav .navbar ul li.active.sub-menu:before {
-  content: '\f0d8'; }
 
 nav .navbar ul li ul {
   position: absolute;
@@ -238,7 +235,6 @@ nav .navbar ul li a.active {
 /*This is the slider in header part below navigation bar */
 /*this is the section for products */
 #products, #blogs_sec, #info, #foot_nav {
-  background: linear-gradient(#4d5152, rgba(194, 216, 221, 0.2)), url(../img/sunset/seashore2.jpg);
   height: auto;
   padding: 1%;
   background-size: cover;
@@ -323,7 +319,6 @@ nav .navbar ul li a.active {
 /*This is the css for banner with view member button */
 /*Blogs Section css starts from here */
 #blogs_sec {
-  background: linear-gradient(90deg, #b3dee5, #fae6b1);
   background-position: center center;
   background-attachment: fixed; }
   #blogs_sec .blogs_sec {
@@ -346,7 +341,7 @@ nav .navbar ul li a.active {
 /*Blogs Section css ends here */
 /*This is the section for videos and event */
 #info {
-  background: linear-gradient(rgba(250, 230, 177, 0.2), rgba(179, 222, 229, 0.3)), url(../img/sunset/mountainset.jpg);
+  background: linear-gradient(#fae6b1, #b3dee5);
   background-attachment: scroll;
   background-position: center center;
   display: flex;
@@ -370,8 +365,7 @@ nav .navbar ul li a.active {
   #info #events {
     width: 60%;
     padding: 1%;
-    margin: 5px  auto;
-    box-shadow: 0 0 3px 0 rgba(255, 161, 1, 0.6); }
+    margin: 5px  auto; }
     #info #events .event_text {
       text-align: center;
       color: #ffa101;
@@ -416,14 +410,13 @@ nav .navbar ul li a.active {
           font-size: 19px;
           font-weight: 400; }
           #info #events .events_sec .eventbox a span {
-            color: #fae6b1;
+            color: #31515c;
             font-weight: 200;
             font-size: 16px; }
 
 /*This is the section for videos and event */
 /*This is the section for footer navigation bar */
 #foot_nav {
-  background: linear-gradient(90deg, #fae6b1, #b3dee5);
   background-position: center center;
   background-attachment: fixed;
   display: flex;
