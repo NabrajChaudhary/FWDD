@@ -1,0 +1,35 @@
+#product_section{
+    @extend #page_content;
+    width: 100%;
+    h2{
+        font-weight: 900;
+        color: #ffa101;
+        font-size: 42px;
+        text-align: center;
+        padding: 1%;
+    }
+    .product_part{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 5px;
+         padding: 1%;
+        .product_box{
+            width: 30%;
+            margin: auto 1%;
+             overflow: hidden;
+            .product_item{
+                img{
+                    transition: .5s;
+                    
+                     &:hover {
+                         transform: scale(1.25,1.25);
+
+                     }
+                }
+              
+               
+        }
+    }
+
+}
+}
