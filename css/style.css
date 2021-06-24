@@ -18,7 +18,7 @@ p {
 
 /*This is the entire css for services part */
 /*This is the css for Veganism page-Fitness Page- Addiction Free  -Starts Here */
-#page_content, #info_content, #product_section {
+#page_content, #info_content, #client_section, #product_section {
   background: rgba(250, 230, 177, 0.3);
   height: auto;
   padding: 1%; }
@@ -472,7 +472,7 @@ footer {
 
 /*This is the End Footer Css  */
 /*this is the css for about section */
-#about_section, #career_section, #client_section {
+#about_section, #career_section {
   width: 100%;
   background: rgba(250, 230, 177, 0.3);
   height: auto;
@@ -683,6 +683,59 @@ footer {
 
 /*This is the css for About us/Career Page.. including all elements /Ends Here/ */
 /* This is the css for About us/clients Page... including all the elements -- Starts here */
+#client_section h2 {
+  font-weight: 900;
+  color: #ffa101;
+  font-size: 42px;
+  text-align: center;
+  padding: 1%; }
+#client_section .clients_part {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  padding: 1%; }
+  #client_section .clients_part .clients {
+    width: 30%;
+    background: rgba(179, 222, 229, 0.2);
+    margin: auto !important;
+    box-shadow: 0px 0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px; }
+    #client_section .clients_part .clients .clients_profile {
+      padding: 1%;
+      display: flex;
+      justify-content: space-between;
+      justify-content: center;
+      gap: 5px; }
+      #client_section .clients_part .clients .clients_profile .avatar {
+        width: 25%;
+        margin: auto !important;
+        background: blue;
+        height: 100px !important;
+        border-radius: 50% !important; }
+        #client_section .clients_part .clients .clients_profile .avatar img {
+          border-radius: 50%;
+          height: 100%;
+          width: 100% !important; }
+      #client_section .clients_part .clients .clients_profile .details {
+        width: 70%;
+        padding: 1%; }
+        #client_section .clients_part .clients .clients_profile .details .name {
+          color: #ffa101;
+          font-weight: 500;
+          padding: 1%; }
+        #client_section .clients_part .clients .clients_profile .details .message {
+          color: #31515c;
+          font-weight: 400;
+          padding: 1%; }
+        #client_section .clients_part .clients .clients_profile .details .rating {
+          padding: 1%;
+          margin: 1% auto !important; }
+          #client_section .clients_part .clients .clients_profile .details .rating .fa {
+            font-size: 20px; }
+          #client_section .clients_part .clients .clients_profile .details .rating .checked {
+            color: orange; }
+
+/* This is the css for About us/clients Page... including all the elements -- Starts here */
 /* This is the css for About us/clients Page... including all the elements -- Ends here */
 @media (max-width: 800px) {
   nav {
@@ -883,22 +936,22 @@ footer {
 
   /*This is the css for info section that contains... Disclaimer, Terms and condtion and Privacy Policy pages.. Ends Here */
   /* This is the css for about section / Starts Here*/
-  #about_section, #career_section, #client_section {
+  #about_section, #career_section {
     width: 100%; }
-    #about_section .about_text_area, #career_section .about_text_area, #client_section .about_text_area {
+    #about_section .about_text_area, #career_section .about_text_area {
       width: 95%;
       margin: auto !important; }
-      #about_section .about_text_area h1, #career_section .about_text_area h1, #client_section .about_text_area h1 {
+      #about_section .about_text_area h1, #career_section .about_text_area h1 {
         font-size: 35px;
         font-weight: 700; }
-    #about_section .team_sec, #career_section .team_sec, #client_section .team_sec {
+    #about_section .team_sec, #career_section .team_sec {
       width: 98%; }
-      #about_section .team_sec h2, #career_section .team_sec h2, #client_section .team_sec h2 {
+      #about_section .team_sec h2, #career_section .team_sec h2 {
         font-size: 20px;
         font-weight: 600; }
-      #about_section .team_sec .team_memb, #career_section .team_sec .team_memb, #client_section .team_sec .team_memb {
+      #about_section .team_sec .team_memb, #career_section .team_sec .team_memb {
         width: 98%; }
-        #about_section .team_sec .team_memb .card, #career_section .team_sec .team_memb .card, #client_section .team_sec .team_memb .card {
+        #about_section .team_sec .team_memb .card, #career_section .team_sec .team_memb .card {
           flex: 35%;
           margin: auto;
           padding: 1%; }
@@ -928,6 +981,8 @@ footer {
     width: 96%; }
 
   /*This is the css for career About us/ section start here*/
+  /*This is the css for client - About us/ Starts here */
+  /*This is the css for client - About us/ Ends here */
   /*This is the css for product page -/Starts here */
   #product_section h2 {
     font-size: 30px;
