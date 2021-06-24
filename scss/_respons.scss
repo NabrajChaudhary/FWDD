@@ -314,6 +314,32 @@ padding: 1%;
      }
 
      /*This is the css for career About us/ section start here*/
+
+
+    /*This is the css for product page -/Starts here */
+     #product_section{
+         h2{
+             font-size: 30px;
+             font-weight: 700;
+         }
+         .product_part{
+             gap: 5px;
+             padding: 1%;
+             flex-direction: row !important;
+             .product_log{
+                 width: 45% !important;
+                 padding: 1%;
+                 .product_box{
+                     height: 100px !important;
+                     
+                 }
+                 
+             }
+         }
+     }
+
+
+    /*This is the css for product page -/Starts here */
      }
 
 
