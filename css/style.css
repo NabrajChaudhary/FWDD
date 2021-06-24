@@ -942,7 +942,7 @@ footer {
     gap: 5px;
     padding: 1%; }
     #product_section .product_part .product_box, #product_section .product_part #blogs_sec .blogs_sec .blogs_box, #blogs_sec .blogs_sec #product_section .product_part .blogs_box {
-      width: 30%;
+      width: 25%;
       margin: auto 1%;
       overflow: hidden; }
       #product_section .product_part .product_box .product_item img, #product_section .product_part #blogs_sec .blogs_sec .blogs_box .product_item img, #blogs_sec .blogs_sec #product_section .product_part .blogs_box .product_item img {
