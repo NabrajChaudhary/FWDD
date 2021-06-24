@@ -18,7 +18,7 @@ p {
 
 /*This is the entire css for services part */
 /*This is the css for Veganism page-Fitness Page- Addiction Free  -Starts Here */
-#page_content, #info_content, #product_section {
+#page_content, #info_content {
   background: rgba(250, 230, 177, 0.3);
   height: auto;
   padding: 1%; }
@@ -943,34 +943,5 @@ footer {
         height: 100px !important; }
 
   /*This is the css for product page -/Starts here */ }
-#product_section {
-  width: 100%;
-  margin: auto; }
-  #product_section h2 {
-    font-weight: 900;
-    color: #ffa101;
-    font-size: 42px;
-    text-align: center;
-    padding: 1%; }
-  #product_section .product_part {
-    display: flex;
-    flex-flow: row wrap;
-    gap: 10px;
-    padding: 1%; }
-    #product_section .product_part .product_log {
-      width: 22%;
-      margin: auto !important; }
-      #product_section .product_part .product_log .product_box, #product_section .product_part .product_log #blogs_sec .blogs_sec .blogs_box, #blogs_sec .blogs_sec #product_section .product_part .product_log .blogs_box {
-        overflow: hidden !important;
-        height: 200px; }
-        #product_section .product_part .product_log .product_box .product_item img, #product_section .product_part .product_log #blogs_sec .blogs_sec .blogs_box .product_item img, #blogs_sec .blogs_sec #product_section .product_part .product_log .blogs_box .product_item img {
-          transition: .7s ease; }
-          #product_section .product_part .product_log .product_box .product_item img:hover, #product_section .product_part .product_log #blogs_sec .blogs_sec .blogs_box .product_item img:hover, #blogs_sec .blogs_sec #product_section .product_part .product_log .blogs_box .product_item img:hover {
-            transform: scale(1.35, 1.35); }
-      #product_section .product_part .product_log a {
-        text-decoration: none; }
-        #product_section .product_part .product_log a h4 {
-          color: #ffa101;
-          text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
