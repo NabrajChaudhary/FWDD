@@ -982,6 +982,19 @@ footer {
 
   /*This is the css for career About us/ section start here*/
   /*This is the css for client - About us/ Starts here */
+  #client_section h2 {
+    font-size: 30px;
+    font-weight: 700; }
+  #client_section .clients_part {
+    display: flex;
+    flex-direction: column; }
+    #client_section .clients_part .clients {
+      width: 100%;
+      padding: 1%; }
+      #client_section .clients_part .clients .clients_profile .avatar {
+        width: 20%;
+        height: 75px !important; }
+
   /*This is the css for client - About us/ Ends here */
   /*This is the css for product page -/Starts here */
   #product_section h2 {
