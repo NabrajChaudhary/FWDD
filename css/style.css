@@ -18,7 +18,7 @@ p {
 
 /*This is the entire css for services part */
 /*This is the css for Veganism page-Fitness Page- Addiction Free  -Starts Here */
-#page_content, #info_content, #client_section, #product_section {
+#page_content, #info_content, #client_section, #product_section, #blogs_section {
   background: rgba(250, 230, 177, 0.3);
   height: auto;
   padding: 1%; }
@@ -1011,6 +1011,7 @@ footer {
         height: 100px !important; }
 
   /*This is the css for product page -/Starts here */ }
+/*This is the css for products page - Starts here */
 #product_section {
   width: 100%;
   margin: auto; }
@@ -1040,5 +1041,46 @@ footer {
         #product_section .product_part .product_log a h4 {
           color: #ffa101;
           text-align: center; }
+
+/* This is the css for products page - Ends here */
+/* This is the css for blogs page */
+#blogs_section {
+  width: 100%;
+  margin: auto; }
+  #blogs_section h2 {
+    font-weight: 900;
+    color: #ffa101;
+    font-size: 42px;
+    text-align: center;
+    padding: 1%; }
+  #blogs_section .blogs_part {
+    display: flex;
+    justify-content: space-between;
+    gap: 5; }
+    #blogs_section .blogs_part .blogs_box {
+      width: 47%;
+      padding: 1%;
+      border-radius: 5px;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1); }
+      #blogs_section .blogs_part .blogs_box .blogs {
+        padding: 1%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px; }
+        #blogs_section .blogs_part .blogs_box .blogs .thumbnail {
+          width: 30%;
+          height: 100%;
+          margin: auto !important; }
+        #blogs_section .blogs_part .blogs_box .blogs .blogs_text {
+          width: 70%;
+          padding: 1%;
+          margin: 1% auto; }
+          #blogs_section .blogs_part .blogs_box .blogs .blogs_text .blogs_text_heading {
+            color: #ffa101; }
+          #blogs_section .blogs_part .blogs_box .blogs .blogs_text .blogs_text_content {
+            color: #385863; }
+
+/* This is the css for blogs page */
 
 /*# sourceMappingURL=style.css.map */
