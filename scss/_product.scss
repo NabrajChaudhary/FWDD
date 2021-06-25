@@ -64,42 +64,7 @@
          text-align: center;
          padding: 1%;  
      }
-     .blogs_part{
-         display: flex;
-         justify-content: space-between;
-         gap: 5;
-         .blogs_box{
-             width: 47%;
-            //  border: 1px solid #000;
-             padding: 1%;
-             border-radius: 5px;
-             box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
-             .blogs{
-                 padding: 1%;
-                 margin: auto;
-                 display: flex;
-                 justify-content: space-between;
-                 gap: 10px;
-                 .thumbnail{
-                     width: 30%;
-                     height: 100%;
-                     margin: auto !important;
-                 }
-                 .blogs_text{
-                     width: 70%;
-                     padding: 1%;
-                     margin: 1% auto;
-                     .blogs_text_heading{
-                         color: #ffa101;
-                     }
-                     .blogs_text_content{
-                         color:#385863 ;
-                     }
-
-                 }
-             }
-         }
-     }
+   
 }
 
 /* This is the css for blogs page */

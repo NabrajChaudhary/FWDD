@@ -1010,7 +1010,9 @@ footer {
       #product_section .product_part .product_log .product_box, #product_section .product_part .product_log #blogs_sec .blogs_sec .blogs_box, #blogs_sec .blogs_sec #product_section .product_part .product_log .blogs_box {
         height: 100px !important; }
 
-  /*This is the css for product page -/Starts here */ }
+  /*This is the css for product page -/Starts here */
+  /*this is the css for blogs page- Start Here */
+  /*this is the css for blogs page- End Here */ }
 /*This is the css for products page - Starts here */
 #product_section {
   width: 100%;
@@ -1053,33 +1055,6 @@ footer {
     font-size: 42px;
     text-align: center;
     padding: 1%; }
-  #blogs_section .blogs_part {
-    display: flex;
-    justify-content: space-between;
-    gap: 5; }
-    #blogs_section .blogs_part .blogs_box {
-      width: 47%;
-      padding: 1%;
-      border-radius: 5px;
-      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1); }
-      #blogs_section .blogs_part .blogs_box .blogs {
-        padding: 1%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        gap: 10px; }
-        #blogs_section .blogs_part .blogs_box .blogs .thumbnail {
-          width: 30%;
-          height: 100%;
-          margin: auto !important; }
-        #blogs_section .blogs_part .blogs_box .blogs .blogs_text {
-          width: 70%;
-          padding: 1%;
-          margin: 1% auto; }
-          #blogs_section .blogs_part .blogs_box .blogs .blogs_text .blogs_text_heading {
-            color: #ffa101; }
-          #blogs_section .blogs_part .blogs_box .blogs .blogs_text .blogs_text_content {
-            color: #385863; }
 
 /* This is the css for blogs page */
 
