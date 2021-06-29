@@ -70,8 +70,35 @@
        .blog_box{
           margin: auto;
           padding: 1%;
-            
-       }
+           &:hover {
+               box-shadow: 0px 0px 10px grey;
+           }
+        a{
+            text-decoration: none;
+            color: #31515c;
+             .bloginfo_sec {
+                 display: flex;
+                 justify-content: space-between;
+                 color: #31515c;
+             }
+             .blogs_content {
+                 padding: 1% 0;
+                 h3 {
+                     color: #31515c;
+                     text-align: justify;
+                 }
+                 p {
+                     color: #31515c;
+                     text-align: justify;
+                 }
+                 a{
+                     padding: 2% 0;
+                     color: blue;
+
+                 }
+             }
+             }
+        }
    }
 }
 

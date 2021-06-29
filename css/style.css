@@ -1061,6 +1061,26 @@ footer {
     #blogs_section .blogs .blog_box {
       margin: auto;
       padding: 1%; }
+      #blogs_section .blogs .blog_box:hover {
+        box-shadow: 0px 0px 10px grey; }
+      #blogs_section .blogs .blog_box a {
+        text-decoration: none;
+        color: #31515c; }
+        #blogs_section .blogs .blog_box a .bloginfo_sec {
+          display: flex;
+          justify-content: space-between;
+          color: #31515c; }
+        #blogs_section .blogs .blog_box a .blogs_content {
+          padding: 1% 0; }
+          #blogs_section .blogs .blog_box a .blogs_content h3 {
+            color: #31515c;
+            text-align: justify; }
+          #blogs_section .blogs .blog_box a .blogs_content p {
+            color: #31515c;
+            text-align: justify; }
+          #blogs_section .blogs .blog_box a .blogs_content a {
+            padding: 2% 0;
+            color: blue; }
 
 /* This is the css for blogs page */
 
