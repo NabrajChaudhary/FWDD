@@ -364,9 +364,27 @@ padding: 1%;
     /*This is the css for product page -/Starts here */
 
     /*this is the css for blogs page- Start Here */
-  
-
+     #blogs_section{
+         h2{
+             font-size: 30px;
+             font-weight: 700;
+         }
+     }
     /*this is the css for blogs page- End Here */
+    /*this is the css for Events page- Start Here */
+
+      #events_section {
+          h2 {
+              font-size: 30px;
+              font-weight: 700;
+          }
+          .events_sec{
+              .eventbox{
+                  width: 100%;
+              }
+          }
+      }
+    /*this is the css for Events page- End Here */
      }
 
 

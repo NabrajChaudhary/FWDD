@@ -18,7 +18,7 @@ p {
 
 /*This is the entire css for services part */
 /*This is the css for Veganism page-Fitness Page- Addiction Free  -Starts Here */
-#page_content, #info_content, #client_section, #product_section, #blogs_section {
+#page_content, #info_content, #client_section, #product_section, #blogs_section, #events_section {
   background: rgba(250, 230, 177, 0.3);
   height: auto;
   padding: 1%; }
@@ -696,6 +696,7 @@ footer {
   padding: 1%; }
   #client_section .clients_part .clients {
     width: 30%;
+    height: 230px;
     background: rgba(179, 222, 229, 0.2);
     margin: auto !important;
     box-shadow: 0px 0 2px 1px rgba(0, 0, 0, 0.2);
@@ -1012,7 +1013,19 @@ footer {
 
   /*This is the css for product page -/Starts here */
   /*this is the css for blogs page- Start Here */
-  /*this is the css for blogs page- End Here */ }
+  #blogs_section h2 {
+    font-size: 30px;
+    font-weight: 700; }
+
+  /*this is the css for blogs page- End Here */
+  /*this is the css for Events page- Start Here */
+  #events_section h2 {
+    font-size: 30px;
+    font-weight: 700; }
+  #events_section .events_sec .eventbox {
+    width: 100%; }
+
+  /*this is the css for Events page- End Here */ }
 /*This is the css for products page - Starts here */
 #product_section {
   width: 100%;
@@ -1083,5 +1096,42 @@ footer {
             color: blue; }
 
 /* This is the css for blogs page */
+/*This is the Css for Events page - Starts here */
+#events_section {
+  width: 100%;
+  margin: auto; }
+  #events_section h2 {
+    font-weight: 900;
+    color: #ffa101;
+    font-size: 42px;
+    text-align: center;
+    padding: 1%; }
+  #events_section .events_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1%; }
+    #events_section .events_sec .eventbox {
+      padding: 1%;
+      margin: 5px auto;
+      border-radius: 5px;
+      width: 90%;
+      transition: .3s ease-out; }
+      #events_section .events_sec .eventbox:hover {
+        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.4); }
+      #events_section .events_sec .eventbox a {
+        text-align: justify;
+        text-decoration: none;
+        color: #31515c;
+        font-size: 19px;
+        font-weight: 400;
+        text-align: justify; }
+        #events_section .events_sec .eventbox a span {
+          color: #31515c;
+          font-weight: 200;
+          font-size: 16px; }
+
+/*This is the Css for Events page - ends here */
 
 /*# sourceMappingURL=style.css.map */
