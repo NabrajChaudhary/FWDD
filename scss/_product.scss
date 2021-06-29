@@ -64,7 +64,15 @@
          text-align: center;
          padding: 1%;  
      }
-   
+   .blogs{
+       padding: 1% 1%;
+       margin: auto;
+       .blog_box{
+          margin: auto;
+          padding: 1%;
+            
+       }
+   }
 }
 
 /* This is the css for blogs page */

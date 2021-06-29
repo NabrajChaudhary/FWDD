@@ -1055,6 +1055,12 @@ footer {
     font-size: 42px;
     text-align: center;
     padding: 1%; }
+  #blogs_section .blogs {
+    padding: 1% 1%;
+    margin: auto; }
+    #blogs_section .blogs .blog_box {
+      margin: auto;
+      padding: 1%; }
 
 /* This is the css for blogs page */
 
