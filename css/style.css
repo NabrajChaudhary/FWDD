@@ -18,7 +18,7 @@ p {
 
 /*This is the entire css for services part */
 /*This is the css for Veganism page-Fitness Page- Addiction Free  -Starts Here */
-#page_content, #info_content, #client_section, #product_section, #blogs_section, #events_section {
+#page_content, #info_content, #client_section, #product_section, #blogs_section, #events_section, #trainers_section {
   background: rgba(250, 230, 177, 0.3);
   height: auto;
   padding: 1%; }
@@ -1133,5 +1133,11 @@ footer {
           font-size: 16px; }
 
 /*This is the Css for Events page - ends here */
+#trainers_section h2 {
+  font-weight: 900;
+  color: #ffa101;
+  font-size: 42px;
+  text-align: center;
+  padding: 1%; }
 
 /*# sourceMappingURL=style.css.map */

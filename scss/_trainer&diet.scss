@@ -1,0 +1,10 @@
+#trainers_section{
+    @extend #page_content;
+    h2{
+        font-weight: 900;
+        color: #ffa101;
+        font-size: 42px;
+        text-align: center;
+        padding: 1%;
+    }
+}
