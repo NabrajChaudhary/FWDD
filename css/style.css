@@ -1025,7 +1025,24 @@ footer {
   #events_section .events_sec .eventbox {
     width: 100%; }
 
-  /*this is the css for Events page- End Here */ }
+  /*this is the css for Events page- End Here */
+  /*This is the css for Trainers page - Starts here*/
+  #trainers_section {
+    /*This is the css for Trainers page - Ends here*/ }
+    #trainers_section h2 {
+      font-size: 30px;
+      font-weight: 700; }
+    #trainers_section .trainers_part {
+      padding: 1% 5% !important; }
+      #trainers_section .trainers_part .trainers-card-group {
+        display: flex;
+        flex-direction: column;
+        width: 100%; }
+        #trainers_section .trainers_part .trainers-card-group .trainers-flip-card {
+          width: 100% !important;
+          margin: 4% 0 !important; }
+          #trainers_section .trainers_part .trainers-card-group .trainers-flip-card .trainers-flip-card-inner .trainers-flip-card-back {
+            padding-top: 50px !important; } }
 /*This is the css for products page - Starts here */
 #product_section {
   width: 100%;
@@ -1139,5 +1156,40 @@ footer {
   font-size: 42px;
   text-align: center;
   padding: 1%; }
+#trainers_section .trainers_part {
+  padding: 1% 10%; }
+  #trainers_section .trainers_part .trainers-card-group {
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    justify-content: space-between; }
+    #trainers_section .trainers_part .trainers-card-group .trainers-flip-card {
+      background-color: transparent;
+      width: 24%;
+      height: 300px;
+      margin: 0 1%; }
+      #trainers_section .trainers_part .trainers-card-group .trainers-flip-card:hover .trainers-flip-card-inner {
+        transform: rotateY(180deg); }
+      #trainers_section .trainers_part .trainers-card-group .trainers-flip-card .trainers-flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.4s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+        #trainers_section .trainers_part .trainers-card-group .trainers-flip-card .trainers-flip-card-inner .trainers-flip-card-front, #trainers_section .trainers_part .trainers-card-group .trainers-flip-card .trainers-flip-card-inner .trainers-flip-card-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          background-color: #bbb;
+          color: black; }
+        #trainers_section .trainers_part .trainers-card-group .trainers-flip-card .trainers-flip-card-inner .trainers-flip-card-back {
+          background-color: #b3dee5;
+          color: #ffa101;
+          padding-top: 30px;
+          transform: rotateY(180deg); }
 
 /*# sourceMappingURL=style.css.map */

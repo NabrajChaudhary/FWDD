@@ -385,6 +385,34 @@ padding: 1%;
           }
       }
     /*this is the css for Events page- End Here */
+
+    /*This is the css for Trainers page - Starts here*/
+      #trainers_section {
+          h2 {
+              font-size: 30px;
+              font-weight: 700;
+          }
+
+          .trainers_part {
+              padding: 1% 5% !important;
+              .trainers-card-group{
+                  display: flex;
+                  flex-direction: column;
+                  width: 100%;
+                   .trainers-flip-card{
+                        width: 100% !important;
+                        margin: 4% 0 !important;     
+                        .trainers-flip-card-inner{
+                            .trainers-flip-card-back{
+                                padding-top: 50px !important;
+                            }
+
+                        }
+              }
+          }
+      }
+    /*This is the css for Trainers page - Ends here*/
      }
+    }
 
 

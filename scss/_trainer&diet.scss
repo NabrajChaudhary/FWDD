@@ -7,4 +7,54 @@
         text-align: center;
         padding: 1%;
     }
+    .trainers_part{
+        padding: 1% 10%;
+        .trainers-card-group {
+            display: flex;
+            width: 100%;
+            padding: 1%;
+            justify-content: space-between;
+
+            .trainers-flip-card {
+                background-color: transparent;
+                width: 24%;
+                height: 300px;
+                margin: 0 1%;
+
+                &:hover {
+                    .trainers-flip-card-inner {
+                        transform: rotateY(180deg);
+                    }
+                }
+
+                .trainers-flip-card-inner {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    transition: transform 0.4s;
+                    transform-style: preserve-3d;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+                    .trainers-flip-card-front {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        background-color: #bbb;
+                        color: black;
+                    }
+
+                    .trainers-flip-card-back {
+                        @extend .trainers-flip-card-front;
+                        background-color: #b3dee5;
+                        color: #ffa101;
+                        padding-top: 30px;
+                        transform: rotateY(180deg);
+                    }
+                }
+            }
+        }
+    }
 }
